@@ -1,0 +1,63 @@
+/*-consulting-*/
+
+
+.main__consulting {
+}
+.consulting {
+  background-color: #fff;
+   padding: 40px 0;
+}
+.consulting__container {
+}
+
+.consulting__column {
+   
+}
+
+
+.consulting__body {
+}
+.consulting__title {
+
+font-size: 24px;
+font-weight: 700;
+line-height: 133%;
+letter-spacing: 0.1px;
+color: #252B42;
+
+
+}
+.consulting__text {
+
+font-size: 14px;
+font-weight: 500;
+line-height: 142%;
+letter-spacing: 0.2px;
+color: #737373;
+
+}
+.consulting__link {
+display: flex;
+justify-content: center;
+align-items: center;
+   background-color: #FF7B47;
+   color: #fff;
+font-size: 14px;
+font-weight: 700;
+line-height: 200%;
+letter-spacing: 0.2px;
+text-align: center;
+padding: 15px 40px;
+border-radius: 5px;
+min-height: 58px;
+
+
+}
+@media (min-width: 780px) {.consulting__column {
+   display: flex;
+   justify-content: space-between;
+}
+.consulting__link{
+   margin: 0 38px;
+}
+}

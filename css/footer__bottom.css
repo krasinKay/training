@@ -1,0 +1,29 @@
+/*-.footer__bottom-*/
+
+.footer__bottom {
+   padding: 25px 0;
+}
+.footer__container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__copy {
+
+font-weight: 600;
+line-height: 171%;
+letter-spacing: 0.2px;
+color: #737373;
+
+}
+.footer__social {
+   padding: 0 40px;
+}
+.social {
+}
+.social__item {
+   min-height: 24px;
+}
+.social__item:not(:last-child) {
+   margin: 0 20px 0 0;
+}
